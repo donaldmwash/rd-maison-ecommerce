@@ -1,4 +1,5 @@
 'use client';
+import './admin.css';
 import { useEffect,useState } from 'react';
 import { createClient } from '@/lib/supabase/browser';
 import { LogOut,RefreshCw,ShieldCheck } from 'lucide-react';
